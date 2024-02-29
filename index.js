@@ -1,3 +1,4 @@
+const createShape = require('./lib/createShape');
 const questions = require('./lib/questions');
 const inquirer = require('inquirer');
 
@@ -5,7 +6,8 @@ const promptUser = () => {
   inquirer
     .prompt([...questions])
     .then((answers) => {
-      console.log(answers);
+      const shape = createShape(answers);
+      console.log(shape);
     })
     .catch((error) => {
       if (error.isTtyError) {
