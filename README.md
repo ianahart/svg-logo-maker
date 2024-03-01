@@ -9,6 +9,12 @@
 - Inquirer (NPM package)
 - Jest (NPM package)
 
+
+<img width="600" alt="svg-logo-maker-screenshot" src="https://github.com/ianahart/svg-logo-maker/assets/29121238/4c135da7-81a7-4f3e-8bda-bb87bd6de7e4">
+
+
+
+
 ## Description
 
 This application is a CLI tool that help's the user generate an SVG logo. The project utilizes `Node.js`, `Jest`, and `Inquirer`. The inquirer package provides a collection of common interactive command line user interfaces. It provides several methods for asking questions and returning answers from the user that can be accessed by a .then promise function. The jest package is an open-source testing framework built on JavaScript.
@@ -21,6 +27,7 @@ This application is a CLI tool that help's the user generate an SVG logo. The pr
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Tests](#tests)
   - [Credits](#credits)
   - [References](#references)
   - [License](#license)
@@ -43,6 +50,11 @@ This application is a CLI tool that help's the user generate an SVG logo. The pr
 From inside the project's root directory run the command `node index.js`. Answer the following prompts to generate an SVG logo. Once you have answered all the prompts a new svg file will be generated in `examples/logo.svg` with data that corresponds to the prompts you answered.
 
 [Video Demo](https://drive.google.com/file/d/1jfWteIaHgvs_zRqiN380pRUB_3PzW36M/view)
+
+
+
+## Tests
+To run tests with Jest, run the command `npm run test` in the root of the project directory.
 
 ## Credits
 
